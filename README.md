@@ -1,1 +1,3 @@
 # Photo-Album-Lambda-
+
+In this project, I developed and launched a Photo Album website on AWS. I set up a Virtual Private Cloud (VPC) with specific subnets, routing tables, and security groups. I created IAM roles for EC2, Lambda, and S3 interactions, restricted S3 access with a bucket policy, and set up a Lambda function to create photo thumbnails. I customized an Amazon Machine Image (AMI), created a launch template, and set up an auto-scaling group across multiple availability zones with an elastic load balancer to handle service requests. I also used AWS Network ACLs to control access and traffic. The website, hosted on EC2 instances, stores photos in an S3 bucket and their metadata in an RDS database, ensuring security, scalability, and high availability.
